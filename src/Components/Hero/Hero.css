@@ -1,0 +1,56 @@
+.hero{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1{
+    text-align: center;
+    width: 50%;
+    font-size: 50px;
+}
+
+.hero h1 span{
+    color: lightgoldenrodyellow;
+}
+
+.profile-image{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    height: 20%;
+    width: 20%;
+    border-radius: 10000px;
+}
+
+.hero p{
+    width: 50%;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.hero-action{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.hero-action div{
+    padding: 15px 40px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.hero-resume{
+    border-radius: 100px;
+    cursor: pointer;
+    border: 2px solid;
+    border-color: lightgoldenrodyellow;
+}
+
+.hero-connect{
+    background-color: lightgoldenrodyellow;
+    color: black;
+
+}
