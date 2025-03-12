@@ -4,15 +4,10 @@ function NavBar() {
   return (
     <div className='navbar'>
     <p>{"{  "}   Joakim Johansson   {"  }"}</p>
-      <ul className="nav-menu">
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Services</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-      <div className='nav-connect'>Connect with me</div>
 
+    <a href="mailto:joakimjohansson.dev@gmail.com">
+          <div className="nav-connect">Connect with me</div>
+        </a>
     </div>
   )
 }
