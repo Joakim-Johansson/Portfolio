@@ -1,6 +1,6 @@
-import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/git.png";
+import resume from '../../assets/resume.pdf';
 
 function Hero() {
   return (
