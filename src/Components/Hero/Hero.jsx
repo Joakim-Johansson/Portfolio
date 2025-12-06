@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/git.png";
-import resume from "../../assets/resumeJoakim.pdf";
+import from "../../assets/Joakim.pdf";
 function Hero() {
   return (
     <div className="hero">
